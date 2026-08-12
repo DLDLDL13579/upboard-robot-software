@@ -1,0 +1,4 @@
+build/*.so filter=lfs diff=lfs merge=lfs -text
+build/*.so.* filter=lfs diff=lfs merge=lfs -text
+build/mit_ctrl filter=lfs diff=lfs merge=lfs -text
+*.onnx filter=lfs diff=lfs merge=lfs -text
